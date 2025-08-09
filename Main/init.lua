@@ -4,7 +4,8 @@ Leaf.Themes = loadstring(game:HttpGet("https://raw.githubusercontent.com/AzxerMa
 Leaf.Window = loadstring(game:HttpGet("https://raw.githubusercontent.com/AzxerMan000/LeafUI/main/Main/window.lua"))()
 Leaf.Tab = loadstring(game:HttpGet("https://raw.githubusercontent.com/AzxerMan000/LeafUI/main/Main/tab.lua"))()
 Leaf.Utils = loadstring(game:HttpGet("https://raw.githubusercontent.com/AzxerMan000/LeafUI/main/Main/utils.lua"))()
-
+Leaf.Button = loadstring(game:HttpGet("https://raw.githubusercontent.com/AzxerMan000/LeafUI/main/Main/Button.lua"))()
+Leaf.Toggle = loadstring(game:HttpGet("https://raw.githubusercontent.com/AzxerMan000/LeafUI/main/Main/toggle.lua"))()
 -- Constructor
 function Leaf.new(title, themeName)
     return Leaf.Window.new(title, themeName or "Default")
