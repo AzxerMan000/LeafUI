@@ -1,4 +1,4 @@
-local Themes = require(script.Parent.themes)
+local Themes = loadstring(game:HttpGet("https:/raw.githubusercontent.com/Azxerman000/LeafUI/main/Main/themes.lua"))()
 local Utils = loadstring(game:HttpGet("https://raw.githubusercontent.com/AzxerMan000/LeafUI/main/Main/utils.lua"))()
 
 local Window = {}
