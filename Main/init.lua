@@ -2,7 +2,7 @@ local Leaf = {}
 
 Leaf.Themes = loadstring(game:HttpGet("https://raw.githubusercontent.com/AzxerMan000/LeafUI/main/Main/themes.lua"))()
 Leaf.Window = loadstring(game:HttpGet("https://raw.githubusercontent.com/AzxerMan000/LeafUI/main/Main/window.lua"))()
-Leaf.Tab = loadstring(game:HttpGet(""))()
+Leaf.Tab = loadstring(game:HttpGet("https://raw.githubusercontent.com/AzxerMan000/LeafUI/main/Main/tab.lua"))()
 Leaf.Utils = loadstring(game:HttpGet("https://raw.githubusercontent.com/AzxerMan000/LeafUI/main/Main/utils.lua"))()
 
 -- Constructor
